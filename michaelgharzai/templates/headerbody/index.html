@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+
+{% block pageframe %}
+<section id="ext_menu-0">
+
+    <nav class=" navbar-dropdown navbar-fixed-top navbar-short">
+        <div class="container">
+		
+
+            <div class="mbr-table">
+                <div class="mbr-table-cell">
+
+                    <div class="navbar-brand">
+                        
+                        <a class="navbar-caption" href="{% url 'home' %}">Michael Gharzai</a>
+						
+                    </div>
+
+                </div>
+                <div class="mbr-table-cell">
+
+                    <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                        <div class="hamburger-icon"></div>
+                    </button>
+
+                    <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
+						<li class="nav-item nav-btn">
+							<a class="nav-link btn btn-white" target="_blank" href="{% static 'documents/MichaelGharzaiResumeWeb.pdf' %}">Resume</a>
+						</li>
+						<li class="nav-item nav-btn">	
+							<a class="nav-link btn btn-white" href="{% url 'about' %}">About</a>
+						</li>
+						<li class="nav-item nav-btn">
+							<a class="nav-link btn btn-white" href="{% url 'contact' %}">Contact</a>
+						</li>
+					</ul>
+                    <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                        <div class="close-icon"></div>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+</section>
+
+
+{% block pagecontent %}
+{% endblock pagecontent %}
+
+
+<footer>
+    
+    <div class="container">
+    </div>
+</footer>
+
+  <link rel="stylesheet" href="{% static 'assets/theme/css/style.css' %}">
+
+  <script src="{% static 'assets/web/assets/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/tether/tether.min.js' %}"></script>
+  <script src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'assets/smooth-scroll/SmoothScroll.js' %}"></script>
+  <script src="{% static 'assets/viewportChecker/jquery.viewportchecker.js' %}"></script>
+  <script src="{% static 'assets/dropdown/js/script.min.js' %}"></script>
+  <script src="{% static 'assets/touchSwipe/jquery.touchSwipe.min.js' %}"></script>
+  <script src="{% static 'assets/jarallax/jarallax.js' %}"></script>
+  <script src="{% static 'assets/theme/js/script.js' %}"></script>
+  
+  
+  <input name="animation" type="hidden">
+{% endblock %}
