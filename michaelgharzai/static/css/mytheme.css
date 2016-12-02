@@ -1,7 +1,11 @@
-
-.navOverlapFix{
-	padding-bottom: 40px;
+.navbar{
+	height:60px;
 }
+
+body{
+	padding-top:40px;
+}
+
 .imageClip
 {
 	width: 100%;
