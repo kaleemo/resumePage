@@ -1,9 +1,7 @@
-.navbar {
-	height: 50px;
+
+body { 
+	padding-top: 50px; 
 }
-
-
-
 .imageClip
 {
 	width: 100%;
