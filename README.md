@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Heroku Django Starter Template
 
 An utterly fantastic project starter template for Django 1.9.
@@ -45,3 +46,7 @@ Just update `runtime.txt` to `python-3.5.2` (no trailing spaces!).
 - [Gunicorn](https://warehouse.python.org/project/gunicorn/)
 - [WhiteNoise](https://warehouse.python.org/project/whitenoise/)
 - [dj-database-url](https://warehouse.python.org/project/dj-database-url/)
+=======
+# resumePage
+my resume page nigga using python-django
+>>>>>>> 64b4dbc45f603734dad246128c63186201359b74
